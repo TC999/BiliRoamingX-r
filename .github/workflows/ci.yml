@@ -47,7 +47,7 @@ jobs:
       - name: Build with gradle
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: ./gradlew --no-daemon -Dorg.gradle.jvmargs=-Xmx2g -Pversion=$VERSION dist
+        run: sudo ./gradlew --no-daemon -Dorg.gradle.jvmargs=-Xmx2g -Pversion=$VERSION dist
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
