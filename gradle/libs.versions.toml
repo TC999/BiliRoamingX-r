@@ -15,8 +15,8 @@ fastjson = "2.0.57"
 revanced-patcher = "19.3.1"
 smali = "3.0.9"
 gson = "2.13.1"
-kotlin = "2.1.20"
-ksp = "2.1.21-2.0.1"
+kotlin = "2.1.21"
+ksp = "2.1.20-2.0.1"
 kotlinpoet-ksp = "2.1.0"
 
 [libraries]
