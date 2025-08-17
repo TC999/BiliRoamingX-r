@@ -16,7 +16,7 @@ revanced-patcher = "19.3.1"
 smali = "3.0.9"
 gson = "2.13.1"
 kotlin = "2.2.10"
-ksp = "2.2.0-2.0.2"
+ksp = "2.2.10-2.0.2"
 kotlinpoet-ksp = "2.2.0"
 
 [libraries]
